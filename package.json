@@ -1,0 +1,23 @@
+{
+  "name": "threeskeletons",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tomjhinton/threeskeletons.git",
+  "author": "Tom Hinton <tomjhinton@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack-dev-server --mode=development"
+  },
+  "dependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "three": "^0.108.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
